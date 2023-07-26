@@ -1,0 +1,10 @@
+div[data-include="assets/inicio.html"]{
+  display: block;
+  width: 100%;
+  height: 3800px;
+}
+@media (max-width:420px) {
+  div[data-include="assets/inicio.html"]{
+    height: 5900px;
+  }
+}

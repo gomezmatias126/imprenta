@@ -1,0 +1,36 @@
+<section class="contacto" id="section_contacto">
+  <div class="wrapper wrapper_contacto">
+    <div class="grid_auto cg_35 main_div">
+      <div class="img_div">
+        <img data-src="assets/img/img18.jpg" alt="Photo by Daria Shevtsova from Pexels">
+      </div>
+      <form class="form" id="form" name="Formulario_De_contacto">
+        <div class="contentForm cg_5 column ai_fs">
+          <h2 class="contacto_titulo subtitle">Dejanos un Mensaje</h2>
+          <div class="cajita_form name">
+            <input type="text" id="name" maxlength="25" name="name" class="nameInput input" required></input>
+            <label for="name" class="nameLabel">Nombre</label>
+          </div>
+          <div class="cajita_form email">
+            <input type="email" id="email" name="email" class="emailInput input" required></input>
+            <label for="email" class="emailLabel">Email</label>
+          </div>
+          <div class="cajita_form telefono">
+            <input type="number" id="phone" name="phone" class="telInput input" min="6" required></input>
+            <label for="phone" class="telLabel">Teléfono</label>
+          </div>
+          <div class="cajita_form mensaje">
+            <textarea name="message" id="message" cols="30" rows="10" class="input" required></textarea>
+            <label for="message" class="messageLabel">Consulta</label>
+          </div>
+          <div class="cajita_form submitForm btn_envio">
+            <button type="submit" class="btn btnForm" id="submitForm" value="Enviar" aria-roledescription="Enviar Formulario" name="Enviar Formulario">Enviar</button>
+            <div class="enviado" id="enviado">
+              <span>Enviando Mensaje....</span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
